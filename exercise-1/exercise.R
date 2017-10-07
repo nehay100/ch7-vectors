@@ -1,23 +1,24 @@
 # Exercise 1: Creating and Indexing Vectors
 
 # Create a vector `first.ten` that has the values 10 through 20 in it (using the : operator)
-
-
+first.ten <- 10:20
+print(first.ten)
 # Create a vector `next.ten` that has the values 21 through 30 in it (using the seq operator)
-
+next.ten <- 21:30
+print(next.ten)
 
 # Create a vector `all.numbers` by combining the vectors `first.ten` and `next.ten`
-
-
+all.numbers <- c(first.ten, next.ten)
+print(all.numbers)
 # Create a variable `eleventh` that is equal to the 11th element in your vector `all.numbers`
-
-
+eleventh <- all.numbers[11]
+print(eleventh)
 # Create a vector `some.numbers` that is equal to the second through the 5th elements of `all.numbers`
 
 
 # Create a variable `len` that is equal to the length of your vector `all.numbers`
-
-
+len <- length(all.numbers)
+print(len)
 ### Bonus ###
 
 # Create a vector `odd` that holds the odd numbers from 1 to 100
